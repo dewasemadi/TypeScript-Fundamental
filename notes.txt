@@ -1,0 +1,16 @@
+Typescript
+
+// install typescript
+npm i -g typescript
+tsc -v
+
+// compile & run .ts file (primitive way)
+tsc [file_name].ts
+node [file_name].js
+
+// alternative way to compile .ts 
+sudo npm i -g ts-node
+ts-node [file_name].ts
+
+// melihat package yang terinstall secara global 
+npm list -g
