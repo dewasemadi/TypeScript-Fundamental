@@ -71,6 +71,16 @@ There are few ways to declare an array:
 3. Using a generic array type. `Array<elementType>`
    `let fruits: Array<string> = ['Apple', 'Orange', 'Banana'];`
 
+notes:
+
+- Array of Number
+- Array of String
+- Array with Union
+- Tuple
+- Array of Object
+- Array multidimensional
+- Destructuring
+
 ## 4. Object
 
 Object is a type that represents the non-primitive type, i.e. anything that is not `number, string, boolean, bigint, symbol, null, or undefined`
