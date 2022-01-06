@@ -6,6 +6,7 @@
  * - reduce : mengambil semua elemen dalam array dan menguranginya menjadi satu nilai
  * - find   : mengembalikan *nilai pertama* yang ditemukan sesuai dengan kondisi yang diinginkan
  * - some   : return boolean, mengecek apakah suatu array mengandung nilai yang ingin kita cari
+ *
  */
 
 type officersType = {
@@ -17,6 +18,7 @@ type officersType = {
   isActive: boolean;
 };
 
+// array of object
 const officers: Array<officersType> = [
   {
     id: 1,

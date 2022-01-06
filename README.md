@@ -70,3 +70,16 @@ There are few ways to declare an array:
    `let fruits: string[] = ['Apple', 'Orange', 'Banana'];`
 3. Using a generic array type. `Array<elementType>`
    `let fruits: Array<string> = ['Apple', 'Orange', 'Banana'];`
+
+## 4. Object
+
+Object is a type that represents the non-primitive type, i.e. anything that is not `number, string, boolean, bigint, symbol, null, or undefined`
+
+notes:
+
+- Object Literal
+- Nested Object
+- Nested, Object of Array
+- Nested, Object of Object ( Dynamic Properties)
+- Destructuring
+- Utility Types ( `ReadOnly, Record` )
